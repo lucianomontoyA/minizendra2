@@ -1,13 +1,13 @@
 
 
 body{
-    background-color: rgb(246,237,231)
-   
+    background-color: rgb(246,237,231);
+   font-family: "joan" ,serif;
 }
 
 .navbar{
-    background-color: rgb(163,141,126)
-   ;
+
+    background-color: rgb(163,141,126);
 }
 .container-boton{
     position: fixed;
@@ -18,4 +18,25 @@ body{
  
 p{
     padding: 5%;
+}
+.productosDestacados{
+    justify-content: space-between;
+}
+.card{
+    justify-content: space-between;
+    margin: 5px ;
+    display: flex;
+    display: inline-block;
+    align-items: center;
+    align-content: center;
+}
+li{
+    display: inline-block;
+
+}
+.card-text{
+    color:rgb(248, 215, 143)
+}
+h2{
+    text-align: center;
 }
